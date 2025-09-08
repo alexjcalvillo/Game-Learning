@@ -1,14 +1,14 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "GameLearning",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "@types/bun": "latest"
+  },
+  "description": "",
+  "private": true,
   "scripts": {
     "build": "tsc"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^5.5.3"
-  },
-  "private": true
+  }
 }
